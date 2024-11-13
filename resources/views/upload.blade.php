@@ -16,14 +16,6 @@
         <form action="{{ route('upload.image') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="title">Image Title</label>
-                <input type="text" name="title" class="form-control" id="title" required>
-                @error('title')
-                    <div class="text-danger">{{ $message }}</div>
-                @enderror
-            </div>
-
-            <div class="form-group">
                 <label for="image">Choose Image</label>
                 
                 <input type="file" name="image" class="form-control" id="image" required>
