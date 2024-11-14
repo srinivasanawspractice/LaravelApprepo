@@ -17,6 +17,7 @@
             @csrf
             <div class="form-group">
                 <label for="image">Choose Image</label>
+                <h1>image will be uploaded in s3</h1>
                 
                 <input type="file" name="image" class="form-control" id="image" required>
                 @error('image')
