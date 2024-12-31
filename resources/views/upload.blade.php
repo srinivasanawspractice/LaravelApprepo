@@ -24,6 +24,7 @@
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
             </div>
+            <button type="submit" class="btn btn-primary">test</button>
             <button type="submit" class="btn btn-primary">Upload</button>
         </form>
     </div>
